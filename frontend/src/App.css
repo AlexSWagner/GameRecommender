@@ -1,0 +1,142 @@
+/* Main container */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Game card styles */
+.game-card {
+  transition: transform 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.game-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.game-card .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-card .card-title {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.game-card .card-text {
+  flex: 1;
+}
+
+/* Recommendation card */
+.recommendation-card {
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #0d6efd;
+}
+
+.recommendation-reason {
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+
+.recommendation-score {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+/* Survey form */
+.survey-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.survey-section h3 {
+  margin-bottom: 1.5rem;
+  color: #0d6efd;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.5rem;
+}
+
+/* Game details page */
+.game-details-container {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.game-cover {
+  border-radius: 0.5rem;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.game-title {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.game-metadata {
+  margin-bottom: 1.5rem;
+  color: #6c757d;
+}
+
+.game-description {
+  margin-bottom: 2rem;
+}
+
+.game-score {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.game-score.metacritic {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.game-score.user {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+/* Profile */
+.profile-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Genre and platform badges */
+.badge {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge-genre {
+  background-color: #28a745;
+}
+
+.badge-platform {
+  background-color: #17a2b8;
+} 
